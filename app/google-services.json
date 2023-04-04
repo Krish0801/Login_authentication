@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650406834912",
+    "project_id": "art-institute-of-chicago-api",
+    "storage_bucket": "art-institute-of-chicago-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650406834912:android:34b47a22a1c8f1bb125685",
+        "android_client_info": {
+          "package_name": "com.example.artinstituteofchicagoapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650406834912-ne5fjnbqt7vt4ribfbcp2stgassbj2v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfW7UiLeMVqa8cS7csNVhbkxF56xQW-k4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650406834912-ne5fjnbqt7vt4ribfbcp2stgassbj2v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

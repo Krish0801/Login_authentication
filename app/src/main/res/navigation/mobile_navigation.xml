@@ -3,13 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_login">
 
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.artinstituteofchicagoapi.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_login"
+            app:destination="@id/navigation_login" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_artworks"
@@ -68,4 +72,13 @@
         android:name="com.example.artinstituteofchicagoapi.ui.eventsDetails.EventsDetailsFragment"
         android:label="@string/title_eventsDetails"
         tools:layout="@layout/fragment_events_details" />
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.artinstituteofchicagoapi.ui.login.LoginFragment"
+        android:label="@string/loginHeading"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
 </navigation>
